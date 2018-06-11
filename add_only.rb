@@ -1,10 +1,12 @@
-def sumof()	
-	x = gets.chomp.to_i
-	y = gets.chomp.to_i
+def sumof()	# function
 
-	z = x + y
+	x = gets.chomp.to_i	# user imputs an integer and that integer equals the var x
 
-	puts "#{z}"
+	y = gets.chomp.to_i # user imputs an integer and that integer equals the var x
+
+	z = x + y # adds the input from var x, y and add them together.
+
+	puts "#{z}" # prints var
 end
 
-sumof()
+sumof() # calls the function
